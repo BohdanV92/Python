@@ -25,18 +25,9 @@ for j in range(n):   ## Без цього "for" на великих кілько
                 buf = matrix[i][j]
                 matrix[i][j] = matrix[i][j_next]
                 matrix[i][j_next] = buf
-                
-##            for i in range (m):
-##                for j in range (n):
-##                    print("%4d"%(matrix[i][j]),end="")
-##                print()
-##            print()
-            
+             
 print("Change colomns matrix:")
 for i in range (m):
     for j in range (n):
         print("%4d"%(matrix[i][j]),end="")
     print()
-
-
-    
