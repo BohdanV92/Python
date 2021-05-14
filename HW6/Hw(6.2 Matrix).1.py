@@ -10,8 +10,7 @@ for i in range (m):
     for j in range (n):
         matrix[i][j] = randint(0, 100)
         print("%5d"%(matrix[i][j]),end="")
-    sum_m = sum(matrix[i][0:n])
-    matrix[i][n] = sum_m
+    matrix[i][n] = sum(matrix[i][0:n])
     print()
 
 for j in range(n+1):
